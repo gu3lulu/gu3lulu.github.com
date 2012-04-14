@@ -1,5 +1,6 @@
 markdown: rdiscount
 permalink: /:year/:month/:title/
+url: http://gu3lulu.github.com
 author: Jimmmy
 pygments: true
 
