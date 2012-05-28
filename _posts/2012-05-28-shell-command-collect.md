@@ -12,37 +12,37 @@ tags:
 
 - 合并文本
 
-<% highlight bash %>
+{% highlight bash %}
 cat file1 file2 >> file3
-<% endhighlight ％>
+{% endhighlight %}
 
 - 将文件以若干行分割成多个文件
 
-<% highlight bash %>
+{% highlight bash %}
 split -l 行数 filename
-<% endhighlight ％>
+{% endhighlight %}
 
 - 当前目录中文件排序显示，ps:rn从小到大,n从大到小
 
-<% highlight bash %>
+{% highlight bash %}
 du -h *|sort -rn 
-<% endhighlight ％>
+{% endhighlight %}
 
 - 统计当前目录中文件数目,包含子目录使用-lR
 
-<% highlight bash %>
+{% highlight bash %}
 ls -l|grep "^-"|wc -l 
-<% endhighlight ％>
+{% endhighlight %}
 
 - 去除文件中重复行,并排序.ps:rn从小到大,n从大到小
 
-<% highlight bash %>
+{% highlight bash %}
 sort -n file|uniq
-<% endhighlight ％>
+{% endhighlight %}
 
 - 转换图片分辨率
 
-<% highlight bash %>
+{% highlight bash %}
 convert -scale 800x600 infile outfile 
-<% endhighlight ％>
+{% endhighlight %}
 
